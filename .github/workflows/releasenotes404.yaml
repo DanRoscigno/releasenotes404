@@ -23,6 +23,7 @@ jobs:
         with:
           args: >
             --config starrocks/docs/lychee.toml
+            --exclude https://github.com/StarRocks/starrocks/.*
             "starrocks/docs/en/release_notes/*.md" "starrocks/docs/zh/release_notes/*.md"
 
       - name: Create Issue From File
