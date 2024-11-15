@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: StarRocks/starrocks
-          ref: branch-3.3
+          ref: branch-3.0
           path: starrocks
 
       - name: Link Checker
